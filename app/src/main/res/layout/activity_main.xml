@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#4A4A4A"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textTitulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp"
+        android:gravity="center"
+        android:text="@string/titulo"
+        android:textColor="#E891AF"
+        android:textSize="48sp"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="31dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/subtitulo"
+        android:textColor="#E891AF"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="56dp"
+        tools:layout_editor_absoluteY="93dp" />
+
+    <VideoView
+        android:id="@+id/videoDado"
+        android:layout_width="264dp"
+        android:layout_height="229dp"
+        android:layout_gravity="center"
+        tools:layout_editor_absoluteX="73dp"
+        tools:layout_editor_absoluteY="164dp" />
+
+    <Button
+        android:id="@+id/buttonD6"
+        android:layout_width="348dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:backgroundTint="#E891AF"
+        android:text="@string/d6"
+        tools:layout_editor_absoluteX="31dp"
+        tools:layout_editor_absoluteY="430dp" />
+
+    <Button
+        android:id="@+id/buttonD12"
+        android:layout_width="348dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:backgroundTint="#E891AF"
+        android:text="@string/d12"
+        tools:layout_editor_absoluteX="31dp"
+        tools:layout_editor_absoluteY="496dp" />
+
+    <Button
+        android:id="@+id/buttonD20"
+        android:layout_width="348dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:backgroundTint="#E891AF"
+        android:text="@string/d20"
+        tools:layout_editor_absoluteX="31dp"
+        tools:layout_editor_absoluteY="560dp" />
+
+</LinearLayout>

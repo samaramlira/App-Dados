@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">AppDados2</string>
+    <string name="titulo">Jogo dos Dados</string>
+    <string name="subtitulo">Escolha um dado para jogar</string>
+    <string name="d6">Dado Normal</string>
+    <string name="d12">Dado de 12</string>
+    <string name="d20">Dado de 20</string>
+    <string name="voltar">Voltar</string>
+    <string name="rolar">Rolar</string>
+    <string name="tituloD6">Você girou o dado</string>
+    <string name="tituloD12">Você girou o dado de 12 lados</string>
+    <string name="tituloD20">Você girou o dado de 20 lados</string>
+
+</resources>
